@@ -1,0 +1,44 @@
+.header{
+    background-color: aqua;
+    padding: 10px;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container-presentacion{
+    display: inline-block;
+    margin-right:30%;
+    margin-top: 10px;
+}
+
+.container-title{
+    display: inline-block;
+    font-size: large;
+}
+
+.container-item{
+    background-color: lightslategray;
+    margin-right: 30px;
+}
+
+#album{
+    display: inline-block;
+    margin-right: 30px;;
+}
+#notas{
+    display: inline-block;
+    margin-right: 30px;
+}
+
+#recetas{
+    display: inline-block;
+    margin-right: 30px;
+}
+
+#acc-directo{
+    display: inline-block;
+    margin-right: 30px;
+}
+
