@@ -18,27 +18,20 @@ body{
     font-size: large;
 }
 
-.container-item{
-    background-color: lightslategray;
-    margin-right: 30px;
+.logos{
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-#album{
-    display: inline-block;
-    margin-right: 30px;;
-}
-#notas{
-    display: inline-block;
-    margin-right: 30px;
+.contacto, .banco, .facebook{
+    display: inline;
+    width: 50%;
+    height: 50%;
 }
 
-#recetas{
-    display: inline-block;
-    margin-right: 30px;
-}
 
-#acc-directo{
-    display: inline-block;
+#album, #notas, #recetas {
+    display: inline;
     margin-right: 30px;
 }
 
