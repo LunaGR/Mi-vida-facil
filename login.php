@@ -19,7 +19,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <html>
 
 <head>
-    <!--crear esta parte del css -->
+    <link rel="stylesheet" type="text/css" href="index.css">
 </head>
 
 <body id="login">
