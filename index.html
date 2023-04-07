@@ -1,16 +1,11 @@
 <!DOCTYPE html>
 
-<?php
-session_start();
-echo "<form method ='post' action='login.php'>
-
-?>
 
 <html lang="es">
 
     <head>
         <meta charset="UTF-8">
-        <link rel="stylesheet" type="text/css" href="index.css">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
         <div class="header">
             <div class="container-presentacion">
                 <h3>Bienvenida (user)</h3></br> 
@@ -26,20 +21,26 @@ echo "<form method ='post' action='login.php'>
 
 
     <body>
+        <div class="title">
+            <center>
+                <h2>¿Qué deseas hacer?</h2>
+            </center>
+        </div>
+
         <div class="logos">
             <!--poner los enlaces directos -->
             <center>
-            <h2>¿Qué deseas hacer?</h2>
                 <div class="contacto">
-                    <img src="img/contact-book.png"
-                    >
+                    <a href="contactos.html">
+                        <img src="img/contact-book.png">
+                    </a>
                 </div>
                 <div class="banco">
                     <img src="img/piggy-bank.png"
                     >
                 </div>
                 <div class="facebook">
-                    <a href="www.facebook.es">
+                    <a href="https://es-es.facebook.com/">
                         <img src="img/facebook.png"
                         >
                     </a>
@@ -52,9 +53,11 @@ echo "<form method ='post' action='login.php'>
                 
             <!--poner los enlaces directos -->
                 <div id="album">
-                    <img src="img/Album.png"
-                        width="15%"
-                        height="15%">
+                    <a href="Album de fotos/login.php">
+                        <img src="img/Album.png"
+                            width="15%"
+                            height="15%">
+                    </a>    
                 </div>
                 <div id="notas">
                     <img src="img/notas.png"
