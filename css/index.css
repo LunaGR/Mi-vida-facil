@@ -1,0 +1,51 @@
+
+//edit login
+.containerLogin{
+    background-color: lightslategray;
+ }
+
+//Edit index
+.header{
+    background-color: aqua;
+    padding: 10px;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container-presentacion{
+    display: inline-block;
+    margin-right:30%;
+    margin-top: 10px;
+}
+
+.container-title{
+    display: inline-block;
+    font-size: large;
+}
+
+.title{
+    margin-bottom: 5%;
+}
+
+.logos{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.contacto, .banco, .facebook{
+    display: inline;
+    width: 50%;
+    height: 50%;
+}
+
+
+#album, #notas, #recetas {
+    display: inline;
+    margin-right: 30px;
+    margin-left: 30px;
+    padding-left: 55px;
+    padding-right: 55px;
+}
+
