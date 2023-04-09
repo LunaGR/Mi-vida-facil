@@ -9,3 +9,9 @@ create table contactos (
     info varchar (20)
 );
 
+insert into contactos ('nombre','telefono','info') values ('Luna', '697883327','hija');
+insert into contactos ('nombre','telefono','info') values ('Ana Cristina', '627990876','hija');
+insert into contactos ('nombre','telefono','info') values ('Maxi', '608667392','hijo');
+insert into contactos ('nombre','telefono','info') values ('Paki', '600897766','hermana');
+
+
