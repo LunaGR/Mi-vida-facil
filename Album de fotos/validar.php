@@ -34,7 +34,7 @@ if ($banderanombre == 1) {
     $moveResult = move_uploaded_file($fileTmpLoc, $fichero_subido);
 
     $sql = "insert into usuario(IdUsuario, NomUsuario, Clave, Email, Sexo, FNacimiento, Ciudad, Pais, Foto, FRegistro) 
-    values('', '$nombre', $clave, '$email', '$sexo' ,'$fechanac', '$ciudad', '$pais', '$fichero_subido', current_time)";
+    values('', '$nombre', '$clave', '$email', '$sexo' ,'$fechanac', '$ciudad', '$pais', '$fichero_subido', current_time)";
 
     if (mysqli_query($con, $sql)) {
         echo "Nuevo usuario creado satisfactoriamente";
