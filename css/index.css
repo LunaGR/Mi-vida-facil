@@ -1,12 +1,5 @@
-
-//edit login
-.containerLogin{
-    background-color: lightslategray;
- }
-
-//Edit index
 .header{
-    background-color: aqua;
+    background-color: #A3E4D7;
     padding: 10px;
 }
 
@@ -26,18 +19,20 @@ body{
 }
 
 .title{
-    margin-bottom: 5%;
+    margin-bottom: 10px;
+}
+
+.container-item{
+    background-color: #A3E4D7;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
 
 .logos{
     margin-top: 20px;
     margin-bottom: 20px;
-}
-
-.contacto, .banco, .facebook{
-    display: inline;
-    width: 50%;
-    height: 50%;
 }
 
 
@@ -49,3 +44,22 @@ body{
     padding-right: 55px;
 }
 
+#recetas :hover {
+    transform: scale(1.5); 
+}
+
+#album :hover {
+    transform: scale(1.5); 
+}
+
+#notas :hover {
+    transform: scale(1.5); 
+}
+
+.acceso :hover {
+    transform: scale(1.5);;
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
+}
