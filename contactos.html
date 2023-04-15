@@ -1,0 +1,39 @@
+<html lang="es">
+
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/contact.css">
+    <div id="container-header">
+      <center>
+        <h1>Contactos</h1>
+      </center>
+      <a href="index.html">
+        <input type="button" value="Atras"> 
+      </a>
+    </div>
+  </head>
+
+  <body>
+
+    <div class="buscar">
+      <h3>Buscar contacto</h3>
+      <input type="text" name="nombre"></br>
+      <input type="submit" value="Buscar"> 
+    </div>
+    
+    <div class="guardar">
+      <legend><b>Agregar contactos </b></legend>         
+      <form action ="contacto.php" method="post">
+          <label>Nombre</label>
+          <input type="text" name ="nombre"><br>
+          <label>Número</label>
+          <input type="numer" name="numero"><br>
+          <label>Información</label>
+          <input type="text" name="info"><br>
+          <input type="submit" value="Guardar">
+      </form>
+    </div>
+
+  </body>
+
+</html>
