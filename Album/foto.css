@@ -1,0 +1,20 @@
+#user{
+    margin-top: 15%;
+    background-image: url("marco.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 30%;
+
+}
+
+body{
+    background-image: radial-gradient(circle, #5c0067 0%, #00d4ff 100%);
+
+}
+
+
+
+head{
+    margin-bottom: 30px;
+    background-image: radial-gradient(circle, #5c0067 0%, #00d4ff 100%);
+}
