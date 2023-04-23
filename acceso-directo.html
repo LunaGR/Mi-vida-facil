@@ -10,68 +10,73 @@
               <h1>Accesos directos</h1>
             </center>
             <a href="indexglobal.php">
-              <input type="button" value="Atras"> 
+                <button class="atras" role="button">Atras</button> 
             </a>
           </div>
     </head>
 
     <body>
-        <h2>Elige dónde quieres ir </h2></br>
+        
+        <div class="container-directo">
+            <h2>Elige dónde quieres ir </h2></br>
 
-        <div id="directos">
-            <div class="banco">
-                
-            </div>
-            <div class="medico">
-                <a href="https://www.sspa.juntadeandalucia.es/servicioandaluzdesalud/clicsalud/pages/anonimo/agenda/pedirCita.jsf?opcionSeleccionada=MUPEDIRCITA">
-                    <img src="img/medico.png">
-                </a>
-            </div>
+            <div id="directos">
+                    
+                <div class="medico">
+                    <a href="https://www.sspa.juntadeandalucia.es/servicioandaluzdesalud/clicsalud/pages/anonimo/agenda/pedirCita.jsf?opcionSeleccionada=MUPEDIRCITA">
+                        <img src="img/medico.png">
+                    </a>
+                </div>
 
-            <div class="farmacia">
-                <a href="https://farmacialosgallos.es/farmacias-de-guardia-chiclana/">
-                    <img src="img/farmacia.png">
-                </a>
-            </div>
-            <div class="movil">  
-                <a href="https://areaclientes.jazztel.com/?goto=https:%2F%2Fareaprivada.jazztel.com%2Fclientes%2FDashboard-Cliente">
-                    <img src="img/movil.png">
-                </a>          
-            </div>
-            <div class="luz">
-                <a href="https://www.endesaclientes.com/login.html?d=Any">
-                    <img src="img/luz.png">
-                </a>
+                <div class="farmacia">
+                    <a href="https://farmacialosgallos.es/farmacias-de-guardia-chiclana/">
+                        <img src="img/farmacia.png">
+                    </a>
+                </div>
+                <div class="movil">  
+                    <a href="https://areaclientes.jazztel.com/?goto=https:%2F%2Fareaprivada.jazztel.com%2Fclientes%2FDashboard-Cliente">
+                        <img src="img/movil.png">
+                    </a>          
+                </div>
+                <div class="luz">
+                    <a href="https://www.endesaclientes.com/login.html?d=Any">
+                        <img src="img/luz.png">
+                    </a>
+                </div>
             </div>
         </div>
 
 
-        <h2>Disfruta de tu ocio de forma más sencilla</h2>
-        <div id="redes">
-            <div class="facebook">
-                <a href="https://es-es.facebook.com/">
-                    <img src="img/facebook.png">
-                </a>
-            </div>
-            <div class="youtube">
-                <a href="https://www.youtube.com/">
-                    <img src="img/youtube.png">
-                </a>
-            </div>
-            <div class="facebook">
-                <a href="https://joanadelgadoshop.com/es/">
-                    <img src="img/joanadelgado.png">
-                </a>
-            </div>
-            <div class="facebook">
-                <a href="https://www.rtve.es/play/videos/la-promesa/episodio-1/6773746/">
-                    <img src="img/lapromesa.png">
-                </a>
-            </div>
+        <div class="container-redes">
+            <h2>Disfruta de tu ocio de forma más sencilla</h2>
+            <div id="redes">
+                <div class="facebook">
+                    <a href="https://es-es.facebook.com/">
+                        <img src="img/facebook.png">
+                    </a>
+                </div>
+                <div class="youtube">
+                    <a href="https://www.youtube.com/">
+                        <img src="img/youtube.png">
+                    </a>
+                </div>
+                <div class="facebook">
+                    <a href="https://joanadelgadoshop.com/es/">
+                        <img src="img/joanadelgado.png">
+                    </a>
+                </div>
+                <div class="facebook">
+                    <a href="https://www.rtve.es/play/videos/la-promesa/episodio-1/6773746/">
+                        <img src="img/lapromesa.png">
+                    </a>
+                </div>
 
+            </div>
         </div>
 
         </br>
+
+
 
 
     </body>
@@ -79,7 +84,7 @@
     <footer>
         <center>
             <div class="boton">
-                    <button type="button" onclick="popup()">¿Necesitas ayuda?<br> Te llamamos</button><br>
+                    <button class="btn" type="button" onclick="popup()">¿Necesitas ayuda?<br> Te llamamos</button><br>
             </div>
         </center>
     </footer>
@@ -89,7 +94,7 @@
             let popup = window.open("popup.html","","width=500, height=500,menubar=no,scrollbars=yes,toolbar=no,location=no,directories=no,resizable=no,top=300,left=800");
             window.setTimeout(function() {
                 popup.close();
-                }, 8000)
+                }, 6000)
 
         }
     </script>
