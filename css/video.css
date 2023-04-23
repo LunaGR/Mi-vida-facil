@@ -1,3 +1,101 @@
 body{
-    background-image: url("img/receta.png");
+  background-image: url("receta.png");
 }
+
+.container-header{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 10px;
+}
+.container-cocina {
+  background-color: #dcdcdc;
+  margin-left: 33%;
+  margin-right: 33%;
+  margin-top: 10%;
+  padding: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input{
+  font-size: 16px;
+  font-weight: 600;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+  
+}
+
+li {
+  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 250px;
+  margin-right: 250px;
+  background-color: #dcdcdc;
+  text-align: center;
+}
+
+img {
+  width: 400px;
+  height: auto;
+}
+
+a {
+  display: block;
+  color: #333;
+  text-decoration: none;
+}
+
+h3 {
+  font-size: 18px;
+  margin: 10px 0 0 0;
+}
+
+p {
+  margin: 5px 0 0 0;
+}
+
+.atras, .enviar {
+    background-color: #FFFFFF;
+    border: 1px solid #222222;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: #222222;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    margin-top: 10px;
+    outline: none;
+    padding: 13px 23px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    touch-action: manipulation;
+    transition: box-shadow .2s,-ms-transform .1s,-webkit-transform .1s,transform .1s;
+    user-select: none;
+    -webkit-user-select: none;
+    width: auto;
+  }
+  
+  .atras:focus-visible {
+    box-shadow: #222222 0 0 0 2px, rgba(255, 255, 255, 0.8) 0 0 0 4px;
+    transition: box-shadow .2s;
+  }
+  
+  .atras:active {
+    background-color: #F7F7F7;
+    border-color: #000000;
+    transform: scale(.96);
+  }
+  
+  .atras:disabled {
+    border-color: #DDDDDD;
+    color: #DDDDDD;
+    cursor: not-allowed;
+    opacity: 1;
+  }
