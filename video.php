@@ -1,41 +1,34 @@
-<style>
-  ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" type="text/css" href="css/video.css">
+  </head>
 
-  li {
-    margin-bottom: 20px;
-  }
+  <body>
+    <div class="container-header">
+      <center>
+        <h1>Mi recetario</h1>
+      </center>
+    </div>
 
-  img {
-    width: 400px;
-    height: auto;
-  }
+    <div class="container-cocina">
+      <form method="post" action="">
+        <label for="texto">Inserte la comida que quiera buscar:</label>
+        <input type="text" name="texto" id="texto">
+        <center>
+          <input class="enviar" type="submit" name="submit" value="Enviar">
+          
+            <button class="atras" role="button">
+              <a href="indexglobal.php">Atras</a>
+            </button> 
+        </center>
+        
+      </form>
 
-  a {
-    display: block;
-    color: #333;
-    text-decoration: none;
-  }
+    </div>
+  </body>
 
-  h3 {
-    font-size: 18px;
-    margin: 10px 0 0 0;
-  }
-
-  p {
-    margin: 5px 0 0 0;
-  }
-
-</style>
-
-<form method="post" action="">
-  <label for="texto">Inserte la comida que quiera buscar:</label>
-  <input type="text" name="texto" id="texto">
-  <input type="submit" name="submit" value="Enviar">
-</form>
+</html>
 
 <?php
 if (isset($_POST['submit'])) {
